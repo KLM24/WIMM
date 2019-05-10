@@ -3,13 +3,10 @@
 ## Files Description
 * img: Output images (.fig file)
 * src: All the functions code (.m file)
-* main_unpurt.m: The script to make a simulation without disturbance
-* cvct_u.m: The script to make a simulation under good situation
-* cvct_o.m: The script to make a simulation under medium situation
-* cvct_n.m: The script to make a simulation under bad situation
-* cvct_u.mat: The saved output workspace produced by cvct_u.m
-* cvct_o.mat: The saved output workspace produced by cvct_o.m
-* cvct_n.mat: The saved output workspace produced by cvct_n.m
+* cvct_cvcvcv.m: The script to make a simulation under situation 1
+* cvct_cvctct.m: The script to make a simulation under situation 2
+* cvct_cvcvcv.mat: The saved output workspace produced by cvct_cvcvcv.m
+* cvct_cvctct.mat: The saved output workspace produced by cvct_cvctct.m
 * huatu.m: The script to draw all the pictures
 
 ## Download
@@ -19,4 +16,4 @@ git clone https://github.com/KudoSZhang/WIMM.git
 ```
 
 ## Usage
-Firstly you should make sure that src folder is added to your working path in matlab. Then run cvct_u.m, cvct_o.m and cvct_n.m. Then save the output workspace as cvct_u.mat, cvct_o.mat and cvct_n.mat. Finally, run huatu.m to draw all the pictures.
+Firstly you should make sure that src folder is added to your working path in matlab. Then run cvct_cvcvcv.m and cvct_cvctct.m. Then save the output workspace as cvct_cvcvcv.mat, and cvct_cvctct.mat. Finally, run huatu.m to draw all the pictures.
